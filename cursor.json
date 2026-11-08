@@ -1,0 +1,8 @@
+{
+  "new_base": "80aeb34533202b023ca1d1f71db87ed7177521f3",
+  "new_skip": 0,
+  "old_index": 0,
+  "old_name": "crates/rbitcoin-cli/src/lib.rs:16:5: replace usage -> String with String::new()",
+  "new_cap_used": false,
+  "run_id": "42455909521"
+}
