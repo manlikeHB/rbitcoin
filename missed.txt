@@ -1,0 +1,55 @@
+# 42578049409 1 fcdeba47fdb70dd72c4c809d7f385f473978f3b6
+MISSED   crates/rbitcoin-store/src/testutil.rs:20:42: replace || with && in sanitize_label in 110s build + 98s test
+MISSED   crates/rbitcoin-store/src/testutil.rs:20:47: replace == with != in sanitize_label in 9s build + 99s test
+MISSED   crates/rbitcoin-cli/src/lib.rs:275:74: replace || with && in valid_zone in 89s build + 16s test
+MISSED   crates/rbitcoin-cli/src/lib.rs:275:61: replace || with && in valid_zone in 1s build + 16s test
+MISSED   crates/rbitcoin-cli/src/lib.rs:275:53: replace == with != in valid_zone in 1s build + 16s test
+MISSED   crates/rbitcoin-cli/src/lib.rs:275:66: replace == with != in valid_zone in 1s build + 16s test
+MISSED   crates/rbitcoin-cli/src/lib.rs:275:79: replace == with != in valid_zone in 1s build + 16s test
+MISSED   crates/rbitcoin-cli/src/lib.rs:295:21: replace && with || in inet_aton_label in 1s build + 16s test
+MISSED   crates/rbitcoin-cli/src/lib.rs:452:43: replace && with || in dispatch_call in 1s build + 16s test
+MISSED   crates/rbitcoin-consensus/src/block/mod.rs:231:27: replace < with > in validate_block_structure_with_pres in 9s build + 98s test
+MISSED   crates/rbitcoin-consensus/src/block/mod.rs:938:9: replace JobPrevouts::is_empty -> bool with true in 9s build + 99s test
+MISSED   crates/rbitcoin-consensus/src/block/mod.rs:938:9: replace JobPrevouts::is_empty -> bool with false in 8s build + 99s test
+MISSED   crates/rbitcoin-consensus/src/block/mod.rs:938:20: replace == with != in JobPrevouts::is_empty in 8s build + 99s test
+MISSED   crates/rbitcoin-consensus/src/block/mod.rs:1242:17: replace > with >= in tx_value_out in 9s build + 99s test
+MISSED   crates/rbitcoin-consensus/src/header.rs:289:20: replace match guard Target::from_compact(base) > r.ceiling with false in retarget_bits in 111s build + 98s test
+MISSED   crates/rbitcoin-consensus/src/header.rs:289:47: replace > with == in retarget_bits in 8s build + 98s test
+MISSED   crates/rbitcoin-consensus/src/header.rs:289:47: replace > with >= in retarget_bits in 8s build + 98s test
+MISSED   crates/rbitcoin-consensus/src/header.rs:296:47: replace < with <= in retarget_bits in 9s build + 98s test
+MISSED   crates/rbitcoin-consensus/src/id_map.rs:22:24: replace |= with &= in <impl Hasher for TxidHasher>::write in 110s build + 98s test
+MISSED   crates/rbitcoin-consensus/src/id_map.rs:22:40: replace << with >> in <impl Hasher for TxidHasher>::write in 8s build + 99s test
+MISSED   crates/rbitcoin-consensus/src/id_map.rs:22:46: replace * with + in <impl Hasher for TxidHasher>::write in 8s build + 98s test
+MISSED   crates/rbitcoin-consensus/src/id_map.rs:22:46: replace * with / in <impl Hasher for TxidHasher>::write in 8s build + 100s test
+MISSED   crates/rbitcoin-consensus/src/params.rs:419:28: replace & with | in ChainParams::apply_regtest_pow_bits in 8s build + 98s test
+MISSED   crates/rbitcoin-consensus/src/params.rs:419:28: replace & with ^ in ChainParams::apply_regtest_pow_bits in 8s build + 99s test
+MISSED   crates/rbitcoin-consensus/src/params.rs:419:36: replace - with + in ChainParams::apply_regtest_pow_bits in 8s build + 98s test
+MISSED   crates/rbitcoin-consensus/src/params.rs:424:17: replace || with && in ChainParams::apply_regtest_pow_bits in 8s build + 101s test
+MISSED   crates/rbitcoin-consensus/src/params.rs:422:21: replace > with >= in ChainParams::apply_regtest_pow_bits in 8s build + 97s test
+MISSED   crates/rbitcoin-consensus/src/params.rs:423:30: replace > with == in ChainParams::apply_regtest_pow_bits in 8s build + 100s test
+MISSED   crates/rbitcoin-consensus/src/params.rs:423:30: replace > with < in ChainParams::apply_regtest_pow_bits in 8s build + 98s test
+MISSED   crates/rbitcoin-consensus/src/params.rs:423:30: replace > with >= in ChainParams::apply_regtest_pow_bits in 8s build + 99s test
+MISSED   crates/rbitcoin-consensus/src/params.rs:423:58: replace > with == in ChainParams::apply_regtest_pow_bits in 8s build + 100s test
+MISSED   crates/rbitcoin-consensus/src/params.rs:423:58: replace > with >= in ChainParams::apply_regtest_pow_bits in 8s build + 98s test
+MISSED   crates/rbitcoin-consensus/src/params.rs:424:30: replace > with == in ChainParams::apply_regtest_pow_bits in 8s build + 98s test
+MISSED   crates/rbitcoin-consensus/src/params.rs:424:30: replace > with < in ChainParams::apply_regtest_pow_bits in 8s build + 99s test
+MISSED   crates/rbitcoin-consensus/src/params.rs:424:30: replace > with >= in ChainParams::apply_regtest_pow_bits in 8s build + 97s test
+MISSED   crates/rbitcoin-consensus/src/params.rs:474:54: replace > with >= in ChainParams::apply_regtest_retarget in 9s build + 99s test
+MISSED   crates/rbitcoin-consensus/src/params.rs:502:27: replace || with && in ChainParams::parse_regtest_pow_bits in 8s build + 98s test
+MISSED   crates/rbitcoin-consensus/src/params.rs:502:40: replace > with < in ChainParams::parse_regtest_pow_bits in 8s build + 101s test
+MISSED   crates/rbitcoin-consensus/src/params.rs:642:26: replace | with ^ in retarget_ceiling in 8s build + 97s test
+MISSED   crates/rbitcoin-consensus/src/policy.rs:53:15: replace > with >= in vbytes_ceil in 119s build + 99s test
+MISSED   crates/rbitcoin-consensus/src/policy.rs:53:26: replace - with / in vbytes_ceil in 8s build + 99s test
+MISSED   crates/rbitcoin-consensus/src/policy.rs:169:53: replace && with || in spends_dust_of in 9s build + 98s test
+MISSED   crates/rbitcoin-consensus/src/policy.rs:218:40: replace + with - in check_libre_admission_at in 8s build + 100s test
+MISSED   crates/rbitcoin-consensus/src/policy.rs:219:22: replace || with && in check_libre_admission_at in 8s build + 98s test
+MISSED   crates/rbitcoin-consensus/src/regtest_pad.rs:67:38: replace & with | in regtest_mine_fits_one_nonce_span in 111s build + 98s test
+MISSED   crates/rbitcoin-consensus/src/regtest_pad.rs:69:24: replace || with && in regtest_mine_fits_one_nonce_span in 8s build + 98s test
+MISSED   crates/rbitcoin-consensus/src/regtest_pad.rs:74:16: replace > with == in regtest_mine_fits_one_nonce_span in 8s build + 98s test
+MISSED   crates/rbitcoin-consensus/src/regtest_pad.rs:74:16: replace > with >= in regtest_mine_fits_one_nonce_span in 8s build + 99s test
+MISSED   crates/rbitcoin-consensus/src/regtest_pad.rs:88:5: replace on_tip_accept_thread -> bool with true in 17s build + 99s test
+MISSED   crates/rbitcoin-consensus/src/regtest_pad.rs:88:5: replace on_tip_accept_thread -> bool with false in 8s build + 101s test
+MISSED   crates/rbitcoin-consensus/src/regtest_pad.rs:88:35: replace == with != in on_tip_accept_thread in 19s build + 99s test
+MISSED   crates/rbitcoin-consensus/src/regtest_pad.rs:110:16: replace == with != in grind_header_midstate in 1s build + 0s test
+MISSED   crates/rbitcoin-consensus/src/regtest_pad.rs:164:18: replace == with != in grind_header_midstate_one in 1s build + 0s test
+MISSED   crates/rbitcoin-consensus/src/regtest_pad.rs:167:39: replace % with / in grind_header_midstate_one in 1s build + 0s test
