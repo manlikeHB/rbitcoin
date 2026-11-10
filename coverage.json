@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
   "label": "coverage",
-  "message": "91.85%",
+  "message": "91.94%",
   "color": "brightgreen",
-  "pct": 91.85,
-  "lh": 110850,
-  "lf": 120685,
+  "pct": 91.94,
+  "lh": 111727,
+  "lf": 121527,
   "gate": 91,
   "scope": "production",
-  "sha": "fcdeba47fdb7",
-  "date": "2026-11-08",
+  "sha": "62ea53099e0e",
+  "date": "2026-11-10",
   "crates": [
     {
       "name": "rbitcoin-cli",
-      "lh": 291,
-      "lf": 323,
-      "pct": 90.09
+      "lh": 292,
+      "lf": 327,
+      "pct": 89.3
     },
     {
       "name": "rbitcoin-consensus",
-      "lh": 6491,
-      "lf": 6674,
-      "pct": 97.26
+      "lh": 6495,
+      "lf": 6676,
+      "pct": 97.29
     },
     {
       "name": "rbitcoin-electrum",
@@ -37,9 +37,9 @@
     },
     {
       "name": "rbitcoin-ibd",
-      "lh": 12797,
+      "lh": 12805,
       "lf": 13854,
-      "pct": 92.37
+      "pct": 92.43
     },
     {
       "name": "rbitcoin-log",
@@ -55,15 +55,15 @@
     },
     {
       "name": "rbitcoin-net",
-      "lh": 23857,
-      "lf": 25821,
-      "pct": 92.39
+      "lh": 24261,
+      "lf": 26153,
+      "pct": 92.77
     },
     {
       "name": "rbitcoin-node",
-      "lh": 4581,
-      "lf": 5508,
-      "pct": 83.17
+      "lh": 4805,
+      "lf": 5740,
+      "pct": 83.71
     },
     {
       "name": "rbitcoin-primitives",
@@ -73,27 +73,27 @@
     },
     {
       "name": "rbitcoin-query",
-      "lh": 15449,
-      "lf": 16705,
-      "pct": 92.48
+      "lh": 15434,
+      "lf": 16709,
+      "pct": 92.37
     },
     {
       "name": "rbitcoin-rpc",
-      "lh": 8342,
-      "lf": 9036,
-      "pct": 92.32
+      "lh": 8408,
+      "lf": 9098,
+      "pct": 92.42
     },
     {
       "name": "rbitcoin-store",
-      "lh": 25355,
-      "lf": 27865,
-      "pct": 90.99
+      "lh": 25535,
+      "lf": 28067,
+      "pct": 90.98
     },
     {
       "name": "rbitcoin-sv2",
-      "lh": 944,
-      "lf": 1026,
-      "pct": 92.01
+      "lh": 949,
+      "lf": 1030,
+      "pct": 92.14
     }
   ]
 }
