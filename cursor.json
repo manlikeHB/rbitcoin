@@ -1,14 +1,14 @@
 {
   "new_base": "fcdeba47fdb70dd72c4c809d7f385f473978f3b6",
   "new_skip": 0,
-  "old_index": 3940,
-  "old_name": "crates/rbitcoin-ibd/src/ibd/archive.rs:18:5: replace header_parent -> Option<BlockHash> with None",
+  "old_index": 4646,
+  "old_name": "crates/rbitcoin-ibd/src/ibd/confirm/mod.rs:1096:9: replace AccountedHeap::bytes -> u64 with 1",
   "new_cap_used": false,
   "run_id": "42777597010",
   "new_len": 0,
   "old_len": 34285,
   "new_remaining": 0,
-  "old_remaining": 32835,
+  "old_remaining": 33579,
   "completed_new": 0,
-  "completed_old": 1450
+  "completed_old": 706
 }
