@@ -1,14 +1,14 @@
 {
   "new_base": "fcdeba47fdb70dd72c4c809d7f385f473978f3b6",
   "new_skip": 0,
-  "old_index": 2490,
-  "old_name": "crates/rbitcoin-consensus/src/script/p2wpkh.rs:12:5: replace witness_pair -> Result<(&[u8], &[u8]), ConsensusError> with Ok((Vec::leak(Vec::new()), Vec::leak(Vec::new())))",
+  "old_index": 3940,
+  "old_name": "crates/rbitcoin-ibd/src/ibd/archive.rs:18:5: replace header_parent -> Option<BlockHash> with None",
   "new_cap_used": false,
-  "run_id": "42578049409",
+  "run_id": "42777597010",
   "new_len": 0,
   "old_len": 34285,
   "new_remaining": 0,
-  "old_remaining": 32707,
+  "old_remaining": 32835,
   "completed_new": 0,
-  "completed_old": 1578
+  "completed_old": 1450
 }
