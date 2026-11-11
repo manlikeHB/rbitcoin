@@ -414,3 +414,9 @@ MISSED   crates/rbitcoin-ibd/src/ibd/confirm/mod.rs:897:5: replace take_lookup_w
 MISSED   crates/rbitcoin-ibd/src/ibd/confirm/mod.rs:897:5: replace take_lookup_wave_faults -> u64 with 1 in 1s build + 12s test
 MISSED   crates/rbitcoin-ibd/src/ibd/confirm/mod.rs:955:5: replace clear_confirm_progress_clock with () in 1s build + 11s test
 MISSED   crates/rbitcoin-ibd/src/ibd/confirm/mod.rs:1007:58: replace > with >= in emit_confirm_reject in 1s build + 11s test
+# 42977711512 1 41be5e45fdc27f3ff14b4b928c50878fdee5e3e6
+MISSED   crates/rbitcoin-cli/src/lib.rs:474:28: replace < with == in retry_connect in 67s build + 13s test
+MISSED   crates/rbitcoin-cli/src/lib.rs:474:28: replace < with > in retry_connect in 1s build + 14s test
+MISSED   crates/rbitcoin-cli/src/lib.rs:474:28: replace < with <= in retry_connect in 1s build + 14s test
+MISSED   crates/rbitcoin-cli/src/lib.rs:474:24: replace + with * in retry_connect in 1s build + 14s test
+MISSED   crates/rbitcoin-cli/src/lib.rs:750:27: replace < with <= in format_getinfo in 1s build + 14s test
