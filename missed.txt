@@ -614,3 +614,60 @@ MISSED   crates/rbitcoin-ibd/src/ibd/events/mod.rs:1843:60: replace && with || i
 MISSED   crates/rbitcoin-ibd/src/ibd/events/mod.rs:1843:13: delete ! in apply_consensus_invalid_reject in 3s build + 58s test
 MISSED   crates/rbitcoin-ibd/src/ibd/events/mod.rs:1843:63: delete ! in apply_consensus_invalid_reject in 3s build + 58s test
 MISSED   crates/rbitcoin-ibd/src/ibd/events/mod.rs:1845:20: replace || with && in apply_consensus_invalid_reject in 3s build + 58s test
+# 43569297359 1 7286c3662b40aff4e5e4c92e290eb1efde66712e
+MISSED   crates/rbitcoin-ibd/src/ibd/reorg.rs:596:36: replace > with >= in prepare_header_rewind in 115s build + 80s test
+MISSED   crates/rbitcoin-net/src/asmap.rs:63:9: replace AsMap::is_empty -> bool with true in 113s build + 66s test
+MISSED   crates/rbitcoin-net/src/asmap.rs:63:9: replace AsMap::is_empty -> bool with false in 7s build + 65s test
+MISSED   crates/rbitcoin-net/src/cache.rs:133:41: replace - with + in BlockCache::push_best in 112s build + 66s test
+MISSED   crates/rbitcoin-net/src/cache.rs:133:41: replace - with / in BlockCache::push_best in 7s build + 65s test
+MISSED   crates/rbitcoin-net/src/chain.rs:2614:20: replace > with == in ChainHub::confirm_empty_regtest in 117s build + 66s test
+MISSED   crates/rbitcoin-net/src/chain.rs:2614:20: replace > with >= in ChainHub::confirm_empty_regtest in 7s build + 66s test
+MISSED   crates/rbitcoin-net/src/chain.rs:2646:57: replace - with + in ChainHub::confirm_empty_regtest in 8s build + 65s test
+MISSED   crates/rbitcoin-net/src/chain.rs:2646:57: replace - with / in ChainHub::confirm_empty_regtest in 8s build + 65s test
+MISSED   crates/rbitcoin-net/src/chain.rs:4669:20: replace < with <= in ChainHub::disconnect_harvest_in_commit in 11s build + 65s test
+MISSED   crates/rbitcoin-net/src/codec.rs:38:52: replace + with * in 120s build + 66s test
+MISSED   crates/rbitcoin-net/src/codec.rs:38:48: replace + with - in 7s build + 65s test
+MISSED   crates/rbitcoin-net/src/codec.rs:38:48: replace + with * in 7s build + 66s test
+MISSED   crates/rbitcoin-net/src/codec.rs:38:43: replace + with * in 7s build + 66s test
+MISSED   crates/rbitcoin-net/src/codec.rs:38:74: replace * with + in 8s build + 65s test
+MISSED   crates/rbitcoin-net/src/codec.rs:38:74: replace * with / in 7s build + 66s test
+MISSED   crates/rbitcoin-net/src/listen.rs:75:13: replace > with == in listener_fd_reserve in 109s build + 65s test
+MISSED   crates/rbitcoin-net/src/listen.rs:75:13: replace > with < in listener_fd_reserve in 7s build + 66s test
+MISSED   crates/rbitcoin-net/src/listen.rs:75:13: replace > with >= in listener_fd_reserve in 7s build + 65s test
+MISSED   crates/rbitcoin-net/src/listen.rs:75:20: replace + with - in listener_fd_reserve in 7s build + 66s test
+MISSED   crates/rbitcoin-net/src/listen.rs:75:20: replace + with * in listener_fd_reserve in 7s build + 65s test
+MISSED   crates/rbitcoin-net/src/listen.rs:78:15: replace / with % in listener_fd_reserve in 7s build + 65s test
+MISSED   crates/rbitcoin-ibd/src/ibd/exit.rs:111:24: replace > with >= in should_advance_locator_after_known_batch in 121s build + 79s test
+MISSED   crates/rbitcoin-ibd/src/ibd/exit.rs:192:9: delete match arm 0 in ibd_caught_up in 4s build + 79s test
+MISSED   crates/rbitcoin-ibd/src/ibd/exit.rs:193:9: delete match arm 1 in ibd_caught_up in 4s build + 78s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:219:70: replace + with * in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:264:9: replace HeaderWalk::has_checkpoints -> bool with false in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:283:34: replace < with <= in HeaderWalk::locator_entries in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:307:36: replace || with && in HeaderWalk::indexed_band_end in 3s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:469:9: delete field height_wide from struct WalkTip expression in install_origin in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:580:39: replace && with || in header_status_view in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:580:42: delete ! in header_status_view in 2s build + 25s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:601:41: delete ! in log_status in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:682:86: replace > with == in settle_walk_peer in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:682:86: replace > with < in settle_walk_peer in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:682:86: replace > with >= in settle_walk_peer in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:711:52: replace && with || in settle_walk_peer in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:751:9: replace || with && in probe_unprobed_peer in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:750:9: replace || with && in probe_unprobed_peer in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:751:56: replace < with == in probe_unprobed_peer in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:751:56: replace < with <= in probe_unprobed_peer in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:759:37: replace > with >= in probe_unprobed_peer in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:810:32: replace == with != in forget_walk_peer in 2s build + 25s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:813:33: replace == with != in forget_walk_peer in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:817:38: replace == with != in forget_walk_peer in 2s build + 25s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:821:29: replace == with != in forget_walk_peer in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:844:56: replace && with || in note_reservation in 2s build + 25s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:844:85: replace > with >= in note_reservation in 2s build + 25s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:852:32: delete ! in note_reservation in 2s build + 25s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:918:12: delete ! in apply_split_confirms in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:967:9: replace || with && in header_sync_open in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:966:9: replace || with && in header_sync_open in 2s build + 25s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:965:9: replace || with && in header_sync_open in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:964:15: replace < with == in header_sync_open in 2s build + 26s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:964:15: replace < with > in header_sync_open in 2s build + 25s test
+MISSED   crates/rbitcoin-ibd/src/ibd/header_walk.rs:964:15: replace < with <= in header_sync_open in 2s build + 27s test
