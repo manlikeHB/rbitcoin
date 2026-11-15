@@ -1,14 +1,14 @@
 {
   "new_base": "fcdeba47fdb70dd72c4c809d7f385f473978f3b6",
   "new_skip": 944,
-  "old_index": 6385,
-  "old_name": "crates/rbitcoin-ibd/src/ibd/header_walk.rs:4440:19: replace > with >= in note_off_path",
+  "old_index": 6845,
+  "old_name": "crates/rbitcoin-ibd/src/ibd/progress.rs:63:5: replace format_progress_line -> String with String::new()",
   "new_cap_used": true,
   "run_id": "43689021235",
   "new_len": 1934,
   "old_len": 33693,
   "new_remaining": 990,
-  "old_remaining": 33493,
-  "completed_new": 301,
-  "completed_old": 200
+  "old_remaining": 33233,
+  "completed_new": 0,
+  "completed_old": 460
 }
