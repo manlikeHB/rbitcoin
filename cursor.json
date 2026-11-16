@@ -1,14 +1,14 @@
 {
   "new_base": "fcdeba47fdb70dd72c4c809d7f385f473978f3b6",
   "new_skip": 1072,
-  "old_index": 6954,
-  "old_name": "crates/rbitcoin-ibd/src/ibd/published.rs:24:5: replace spawn_header_thread -> JoinHandle<()> with JoinHandle::new()",
+  "old_index": 7894,
+  "old_name": "crates/rbitcoin-mempool/src/accept.rs:1545:17: replace && with || in ActiveMempool::finish_commit",
   "new_cap_used": true,
   "run_id": "43823054708",
   "new_len": 1934,
   "old_len": 33693,
   "new_remaining": 862,
-  "old_remaining": 33584,
-  "completed_new": 128,
-  "completed_old": 109
+  "old_remaining": 32753,
+  "completed_new": 0,
+  "completed_old": 940
 }
