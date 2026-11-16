@@ -903,3 +903,35 @@ MISSED   crates/rbitcoin-ibd/src/ibd/perf_log.rs:1324:17: replace >= with < in l
 MISSED   crates/rbitcoin-ibd/src/ibd/perf_log.rs:1324:34: replace >= with < in log_sample in 2s build + 20s test
 MISSED   crates/rbitcoin-ibd/src/ibd/perf_log.rs:1324:58: replace >= with < in log_sample in 2s build + 20s test
 MISSED   crates/rbitcoin-ibd/src/ibd/perf_log.rs:1324:78: replace >= with < in log_sample in 2s build + 20s test
+# 43823054708 1 7286c3662b40aff4e5e4c92e290eb1efde66712e
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:264:58: replace == with != in take_lane_exemption in 109s build + 65s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:280:22: delete ! in lane_send_guard in 9s build + 65s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:426:20: replace & with | in tx_has_bip68_time_lock in 109s build + 65s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:426:20: replace & with ^ in tx_has_bip68_time_lock in 7s build + 66s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:5850:9: replace MempoolHub::template_prev_waiters -> usize with 1 in 7s build + 65s test
+MISSED   crates/rbitcoin-net/src/header_report.rs:125:34: replace match guard Some(old) == p.anchors.last().map(|a| a.1) with true in ChainHub::publish_ibd_header_tip in 106s build + 64s test
+MISSED   crates/rbitcoin-net/src/header_report.rs:126:27: replace <= with > in ChainHub::publish_ibd_header_tip in 7s build + 65s test
+MISSED   crates/rbitcoin-net/src/header_report.rs:219:13: delete match arm (None, other) in ChainHub::refresh_header_report in 13s build + 65s test
+MISSED   crates/rbitcoin-net/src/header_report.rs:303:29: replace == with != in ChainHub::note_header_tip in 13s build + 88s test
+MISSED   crates/rbitcoin-net/src/header_report.rs:313:12: delete ! in ChainHub::note_header_tip in 7s build + 67s test
+MISSED   crates/rbitcoin-net/src/header_report.rs:335:25: replace != with == in ChainHub::refresh_stored_header_tip in 7s build + 65s test
+MISSED   crates/rbitcoin-net/src/header_report.rs:387:25: replace != with == in ChainHub::stored_header_prefix in 7s build + 65s test
+MISSED   crates/rbitcoin-net/src/header_report.rs:407:21: replace <= with > in ChainHub::stored_hash_at in 7s build + 65s test
+MISSED   crates/rbitcoin-net/src/header_report.rs:439:31: replace != with == in ChainHub::check_ibd_header_proof in 7s build + 64s test
+MISSED   crates/rbitcoin-ibd/src/ibd/progress.rs:255:48: replace && with || in TipRateTracker::push in 110s build + 79s test
+MISSED   crates/rbitcoin-ibd/src/ibd/progress.rs:264:33: replace - with + in TipRateTracker::push in 4s build + 77s test
+MISSED   crates/rbitcoin-ibd/src/ibd/progress.rs:264:33: replace - with / in TipRateTracker::push in 4s build + 79s test
+MISSED   crates/rbitcoin-ibd/src/ibd/progress.rs:264:65: replace / with % in TipRateTracker::push in 4s build + 78s test
+MISSED   crates/rbitcoin-ibd/src/ibd/progress.rs:264:65: replace / with * in TipRateTracker::push in 4s build + 78s test
+MISSED   crates/rbitcoin-ibd/src/ibd/progress.rs:264:60: replace * with + in TipRateTracker::push in 4s build + 78s test
+MISSED   crates/rbitcoin-ibd/src/ibd/progress.rs:264:60: replace * with / in TipRateTracker::push in 4s build + 78s test
+MISSED   crates/rbitcoin-ibd/src/ibd/progress.rs:264:36: delete - in TipRateTracker::push in 4s build + 80s test
+MISSED   crates/rbitcoin-ibd/src/ibd/progress.rs:266:31: replace * with / in TipRateTracker::push in 4s build + 78s test
+MISSED   crates/rbitcoin-ibd/src/ibd/progress.rs:266:54: replace * with / in TipRateTracker::push in 4s build + 78s test
+MISSED   crates/rbitcoin-ibd/src/ibd/progress.rs:278:20: replace < with <= in TipRateTracker::eta_rate in 4s build + 81s test
+MISSED   crates/rbitcoin-ibd/src/ibd/progress.rs:281:58: replace && with || in TipRateTracker::eta_rate in 4s build + 79s test
+MISSED   crates/rbitcoin-ibd/src/ibd/progress.rs:281:64: replace > with >= in TipRateTracker::eta_rate in 4s build + 78s test
+MISSED   crates/rbitcoin-ibd/src/ibd/progress.rs:294:35: replace / with * in TipRateTracker::eta_string in 4s build + 79s test
+MISSED   crates/rbitcoin-ibd/src/ibd/progress.rs:390:69: replace / with % in log_progress_tick in 4s build + 78s test
+MISSED   crates/rbitcoin-ibd/src/ibd/progress.rs:390:69: replace / with * in log_progress_tick in 4s build + 79s test
+MISSED   crates/rbitcoin-ibd/src/ibd/progress.rs:419:30: replace && with || in log_progress_tick in 4s build + 79s test
