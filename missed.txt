@@ -1163,3 +1163,17 @@ MISSED   crates/rbitcoin-mempool/src/linearize.rs:262:40: replace + with * in De
 MISSED   crates/rbitcoin-mempool/src/linearize.rs:281:25: delete match arm Ordering::Greater in DepGraph::output_order in 0s build + 0s test
 MISSED   crates/rbitcoin-mempool/src/linearize.rs:297:21: delete match arm Ordering::Greater in DepGraph::output_order in 0s build + 0s test
 MISSED   crates/rbitcoin-mempool/src/linearize.rs:314:28: replace == with != in DepGraph::post_linearize in 0s build + 0s test
+# 44047509612 2 7286c3662b40aff4e5e4c92e290eb1efde66712e
+MISSED   crates/rbitcoin-mempool/src/store.rs:634:50: replace * with / in Mempool::live_accept_secs in 78s build + 74s test
+MISSED   crates/rbitcoin-mempool/src/store.rs:749:33: replace + with * in Mempool::testing_set_slot_cap in 7s build + 75s test
+MISSED   crates/rbitcoin-mempool/src/store.rs:749:50: replace * with + in Mempool::testing_set_slot_cap in 7s build + 74s test
+MISSED   crates/rbitcoin-mempool/src/store.rs:749:50: replace * with / in Mempool::testing_set_slot_cap in 7s build + 75s test
+MISSED   crates/rbitcoin-mempool/src/store.rs:807:50: replace * with / in Mempool::set_slot_trust_kept in 8s build + 75s test
+MISSED   crates/rbitcoin-mempool/src/store.rs:816:16: replace > with >= in Mempool::reserve_body in 8s build + 76s test
+MISSED   crates/rbitcoin-mempool/src/store.rs:1023:24: replace || with && in body_logical_len in 7s build + 75s test
+MISSED   crates/rbitcoin-net/src/chain.rs:151:9: replace HeldBodies::is_empty -> bool with true in 6s build + 50s test
+MISSED   crates/rbitcoin-net/src/chain.rs:151:9: replace HeldBodies::is_empty -> bool with false in 6s build + 50s test
+MISSED   crates/rbitcoin-net/src/chain.rs:430:9: replace HeaderTips::is_empty -> bool with true in 7s build + 49s test
+MISSED   crates/rbitcoin-net/src/chain.rs:430:9: replace HeaderTips::is_empty -> bool with false in 6s build + 50s test
+MISSED   crates/rbitcoin-net/src/chain.rs:915:33: replace | with ^ in ChainHub::note_block_assembled in 7s build + 51s test
+MISSED   crates/rbitcoin-net/src/chain.rs:1053:33: replace || with && in ChainHub::maintain_pool_after_ibd in 6s build + 50s test

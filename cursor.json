@@ -1,14 +1,14 @@
 {
   "new_base": "fcdeba47fdb70dd72c4c809d7f385f473978f3b6",
   "new_skip": 1402,
-  "old_index": 8872,
-  "old_name": "crates/rbitcoin-mempool/src/orphanage.rs:16:76: replace * with +",
+  "old_index": 10035,
+  "old_name": "crates/rbitcoin-net/src/chain.rs:1327:40: replace > with < in ChainHub::try_tip_hash",
   "new_cap_used": true,
   "run_id": "44047509612",
   "new_len": 1934,
   "old_len": 33693,
   "new_remaining": 532,
-  "old_remaining": 32715,
-  "completed_new": 330,
-  "completed_old": 978
+  "old_remaining": 32530,
+  "completed_new": 0,
+  "completed_old": 1163
 }
