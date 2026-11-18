@@ -1177,3 +1177,46 @@ MISSED   crates/rbitcoin-net/src/chain.rs:430:9: replace HeaderTips::is_empty ->
 MISSED   crates/rbitcoin-net/src/chain.rs:430:9: replace HeaderTips::is_empty -> bool with false in 6s build + 50s test
 MISSED   crates/rbitcoin-net/src/chain.rs:915:33: replace | with ^ in ChainHub::note_block_assembled in 7s build + 51s test
 MISSED   crates/rbitcoin-net/src/chain.rs:1053:33: replace || with && in ChainHub::maintain_pool_after_ibd in 6s build + 50s test
+# 44262982029 1 b5f575c14925111b341a333168ed1ee970483b7d
+MISSED   crates/rbitcoin-net/src/eviction.rs:112:35: replace > with >= in newest_in_largest_group in 78s build + 49s test
+MISSED   crates/rbitcoin-net/src/eviction.rs:113:58: replace && with || in newest_in_largest_group in 6s build + 49s test
+MISSED   crates/rbitcoin-net/src/eviction.rs:113:40: replace == with != in newest_in_largest_group in 6s build + 49s test
+MISSED   crates/rbitcoin-net/src/eviction.rs:113:66: replace > with == in newest_in_largest_group in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/eviction.rs:113:66: replace > with < in newest_in_largest_group in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/eviction.rs:113:66: replace > with >= in newest_in_largest_group in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/eviction.rs:129:24: replace > with >= in newest_in_largest_group in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/eviction.rs:129:77: replace < with == in newest_in_largest_group in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/eviction.rs:129:77: replace < with > in newest_in_largest_group in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/eviction.rs:129:77: replace < with <= in newest_in_largest_group in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/i2p_sam.rs:513:52: replace + with - in keep in 77s build + 48s test
+MISSED   crates/rbitcoin-net/src/listen.rs:75:13: replace > with == in listener_fd_reserve in 90s build + 49s test
+MISSED   crates/rbitcoin-net/src/listen.rs:75:13: replace > with < in listener_fd_reserve in 7s build + 49s test
+MISSED   crates/rbitcoin-net/src/listen.rs:75:13: replace > with >= in listener_fd_reserve in 7s build + 49s test
+MISSED   crates/rbitcoin-net/src/listen.rs:75:20: replace + with - in listener_fd_reserve in 7s build + 49s test
+MISSED   crates/rbitcoin-net/src/listen.rs:75:20: replace + with * in listener_fd_reserve in 7s build + 49s test
+MISSED   crates/rbitcoin-net/src/listen.rs:78:15: replace / with % in listener_fd_reserve in 7s build + 49s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:12:24: replace << with >> in 72s build + 48s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:26:13: replace | with ^ in netgroup in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:38:27: replace match guard crate::netaddr::is_cjdns_ip(v6) with true in slot_pause_group in 6s build + 49s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:52:42: replace | with ^ in prefix_group in 6s build + 49s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:52:31: replace | with & in prefix_group in 6s build + 49s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:52:31: replace | with ^ in prefix_group in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:52:36: replace << with >> in prefix_group in 6s build + 47s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:62:28: replace | with ^ in ipv4_group in 5s build + 47s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:71:50: replace && with || in linked_ipv4 in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:73:47: replace && with || in linked_ipv4 in 6s build + 49s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:94:38: replace | with ^ in ipv6_group in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:94:10: replace | with ^ in ipv6_group in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:121:57: replace | with ^ in netgroup_net in 6s build + 47s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:121:46: replace | with ^ in netgroup_net in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:121:51: replace << with >> in netgroup_net in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:122:57: replace | with & in netgroup_net in 6s build + 47s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:122:57: replace | with ^ in netgroup_net in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:122:46: replace | with & in netgroup_net in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:122:46: replace | with ^ in netgroup_net in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:122:51: replace << with >> in netgroup_net in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:122:77: replace >> with << in netgroup_net in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:124:41: replace | with & in netgroup_net in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:124:41: replace | with ^ in netgroup_net in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/netgroup.rs:124:63: replace << with >> in netgroup_net in 6s build + 48s test
+MISSED   crates/rbitcoin-net/src/compact.rs:161:40: replace && with || in cmpct_init_data_ok in 80s build + 48s test
