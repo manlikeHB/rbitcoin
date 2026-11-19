@@ -1,14 +1,14 @@
 {
   "new_base": "fcdeba47fdb70dd72c4c809d7f385f473978f3b6",
   "new_skip": 1847,
-  "old_index": 11054,
-  "old_name": "crates/rbitcoin-net/src/netaddr.rs:606:18: replace -= with += in b32_decode",
+  "old_index": 11666,
+  "old_name": "crates/rbitcoin-net/src/peer.rs:4340:19: replace > with == in on_addr_list",
   "new_cap_used": true,
   "run_id": "44483687707",
   "new_len": 4751,
   "old_len": 32471,
   "new_remaining": 2904,
-  "old_remaining": 32111,
-  "completed_new": 251,
-  "completed_old": 360
+  "old_remaining": 31859,
+  "completed_new": 0,
+  "completed_old": 612
 }
