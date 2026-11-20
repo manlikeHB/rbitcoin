@@ -1,14 +1,14 @@
 {
   "new_base": "fcdeba47fdb70dd72c4c809d7f385f473978f3b6",
   "new_skip": 2055,
-  "old_index": 11866,
-  "old_name": "crates/rbitcoin-net/src/peer.rs:6654:9: delete match arm Ok(AcceptOutcome::Accepted{..}) in on_cmpct_got_block",
+  "old_index": 12334,
+  "old_name": "crates/rbitcoin-net/src/peers.rs:1176:37: replace >= with < in LivePeer::take_tx_inv_due",
   "new_cap_used": true,
   "run_id": "44697574759",
   "new_len": 5004,
   "old_len": 32289,
   "new_remaining": 2949,
-  "old_remaining": 32089,
-  "completed_new": 208,
-  "completed_old": 200
+  "old_remaining": 31821,
+  "completed_new": 0,
+  "completed_old": 468
 }
