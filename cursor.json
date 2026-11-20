@@ -1,14 +1,14 @@
 {
   "new_base": "fcdeba47fdb70dd72c4c809d7f385f473978f3b6",
-  "new_skip": 1847,
-  "old_index": 11666,
-  "old_name": "crates/rbitcoin-net/src/peer.rs:4340:19: replace > with == in on_addr_list",
+  "new_skip": 2055,
+  "old_index": 11866,
+  "old_name": "crates/rbitcoin-net/src/peer.rs:6654:9: delete match arm Ok(AcceptOutcome::Accepted{..}) in on_cmpct_got_block",
   "new_cap_used": true,
-  "run_id": "44483687707",
-  "new_len": 4751,
-  "old_len": 32471,
-  "new_remaining": 2904,
-  "old_remaining": 31859,
-  "completed_new": 0,
-  "completed_old": 612
+  "run_id": "44697574759",
+  "new_len": 5004,
+  "old_len": 32289,
+  "new_remaining": 2949,
+  "old_remaining": 32089,
+  "completed_new": 208,
+  "completed_old": 200
 }
