@@ -1,14 +1,14 @@
 {
   "new_base": "fcdeba47fdb70dd72c4c809d7f385f473978f3b6",
-  "new_skip": 2356,
-  "old_index": 13180,
-  "old_name": "crates/rbitcoin-net/src/seeds.rs:546:23: replace < with > in AddrMan::take_dial_candidates_net",
+  "new_skip": 2805,
+  "old_index": 13354,
+  "old_name": "crates/rbitcoin-net/src/socks.rs:18:9: replace <impl std::fmt::Debug for ProxyCreds>::fmt -> std::fmt::Result with Ok(Default::default())",
   "new_cap_used": true,
-  "run_id": "44881577538",
+  "run_id": "44998453651",
   "new_len": 5004,
   "old_len": 32289,
-  "new_remaining": 2648,
-  "old_remaining": 31773,
-  "completed_new": 0,
-  "completed_old": 516
+  "new_remaining": 2199,
+  "old_remaining": 32115,
+  "completed_new": 449,
+  "completed_old": 174
 }
