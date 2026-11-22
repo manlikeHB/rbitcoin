@@ -1714,3 +1714,41 @@ MISSED   crates/rbitcoin-net/src/service.rs:548:32: delete ! in spawn_inbound_ac
 MISSED   crates/rbitcoin-net/src/service.rs:561:33: delete match arm Ok(Ok(p)) in spawn_inbound_accept in 4s build + 22s test
 MISSED   crates/rbitcoin-net/src/service.rs:644:5: replace default_user_agent -> String with String::new() in 8s build + 21s test
 MISSED   crates/rbitcoin-net/src/service.rs:644:5: replace default_user_agent -> String with "xyzzy".into() in 3s build + 21s test
+# 44998453651 2 5123cad677f5433ba4242dff0f904317518748df
+MISSED   crates/rbitcoin-net/src/socks.rs:330:28: replace || with && in greet in 7s build + 57s test
+MISSED   crates/rbitcoin-net/src/socks.rs:339:17: replace || with && in greet in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/socks.rs:338:17: replace || with && in greet in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/socks.rs:337:17: replace || with && in greet in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/socks.rs:337:37: replace > with == in greet in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/socks.rs:337:37: replace > with >= in greet in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/socks.rs:339:37: replace > with == in greet in 7s build + 59s test
+MISSED   crates/rbitcoin-net/src/socks.rs:339:37: replace > with >= in greet in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/socks.rs:346:28: replace || with && in greet in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/socks.rs:358:27: replace || with && in greet in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/socks.rs:382:33: replace || with && in write_connect in 8s build + 58s test
+MISSED   crates/rbitcoin-net/src/socks.rs:382:48: replace > with == in write_connect in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/socks.rs:382:48: replace > with >= in write_connect in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/socks.rs:409:9: delete match arm 4 in read_connect_reply in 8s build + 58s test
+MISSED   crates/rbitcoin-net/src/socks.rs:413:9: delete match arm 3 in read_connect_reply in 8s build + 58s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:220:5: replace lane_test_gate_enabled -> bool with true in 108s build + 58s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:322:5: replace lane_exclusive_notify -> &'static tokio::sync::Notify with Box::leak(Box::new(Default::default())) in 8s build + 59s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:423:11: delete ! in hold_lane_mutex_for_tests in 8s build + 59s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:556:10: replace == with != in release_lane_hold in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:704:47: replace || with && in wait_park_gate in 8s build + 58s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:709:43: replace || with && in wait_park_gate in 7s build + 59s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:713:8: delete ! in wait_park_gate in 7s build + 59s test
+MISSED   crates/rbitcoin-net/src/tip_accept.rs:714:47: replace || with && in wait_park_gate in 7s build + 59s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:144:9: replace <impl Drop for PromoteDepth>::drop with () in 8s build + 59s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:151:5: replace reset_promote_depth with () in 11s build + 58s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:158:5: replace promote_depth_max -> u32 with 1 in 11s build + 58s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:470:13: delete match arm 1 in QueryUtxoProvider<'a>::coinbase_flag in 7s build + 57s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:471:13: delete match arm 2 in QueryUtxoProvider<'a>::coinbase_flag in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:655:45: replace || with && in is_hard_recent_reject in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1339:22: replace != with == in <impl Drop for TemplateHold<'_>>::drop in 8s build + 58s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1802:14: replace > with == in MempoolHub::note_getdata_tx in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1880:23: replace > with == in MempoolHub::push_recent in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1880:23: replace > with >= in MempoolHub::push_recent in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1894:9: replace MempoolHub::compact -> Result<(u32, usize), String> with Ok((0, 0)) in 9s build + 29s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1894:9: replace MempoolHub::compact -> Result<(u32, usize), String> with Ok((0, 1)) in 4s build + 29s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1894:9: replace MempoolHub::compact -> Result<(u32, usize), String> with Ok((1, 0)) in 4s build + 29s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:1894:9: replace MempoolHub::compact -> Result<(u32, usize), String> with Ok((1, 1)) in 4s build + 29s test
