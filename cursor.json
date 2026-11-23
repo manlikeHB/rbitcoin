@@ -1,14 +1,14 @@
 {
   "new_base": "fcdeba47fdb70dd72c4c809d7f385f473978f3b6",
   "new_skip": 3137,
-  "old_index": 14192,
-  "old_name": "crates/rbitcoin-net/src/tx_relay.rs:6008:9: replace MempoolHub::live_adjusted_totals -> (usize, u64, u64) with (0, 1, 1)",
+  "old_index": 14814,
+  "old_name": "crates/rbitcoin-net/src/v2.rs:901:8: delete ! in encode_v2_payload",
   "new_cap_used": true,
   "run_id": "45137369672",
   "new_len": 5004,
   "old_len": 32289,
   "new_remaining": 1867,
-  "old_remaining": 31834,
-  "completed_new": 332,
-  "completed_old": 455
+  "old_remaining": 31667,
+  "completed_new": 0,
+  "completed_old": 622
 }

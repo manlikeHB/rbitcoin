@@ -1837,3 +1837,35 @@ MISSED   crates/rbitcoin-net/src/tx_relay.rs:5931:9: replace MempoolHub::priorit
 MISSED   crates/rbitcoin-net/src/tx_relay.rs:5957:9: replace MempoolHub::list_live -> Vec<(Txid, u64, u64, Transaction)> with vec![] in 7s build + 20s test
 MISSED   crates/rbitcoin-net/src/tx_relay.rs:5972:9: replace MempoolHub::max_weight -> u64 with 0 in 7s build + 21s test
 MISSED   crates/rbitcoin-net/src/tx_relay.rs:5972:9: replace MempoolHub::max_weight -> u64 with 1 in 3s build + 20s test
+# 45137369672 2 5123cad677f5433ba4242dff0f904317518748df
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:6101:34: replace == with != in MempoolHub::try_cmpct_avail in 108s build + 58s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:6129:47: replace && with || in MempoolHub::try_cmpct_avail in 7s build + 59s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:6304:40: replace && with || in MempoolHub::package_would_exceed_cluster in 8s build + 58s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:7184:25: replace > with == in MempoolHub::push_confirm_memory in 7s build + 59s test
+MISSED   crates/rbitcoin-net/src/tx_relay.rs:7184:25: replace > with >= in MempoolHub::push_confirm_memory in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/v1.rs:29:34: replace * with + in 108s build + 58s test
+MISSED   crates/rbitcoin-net/src/v1.rs:29:34: replace * with / in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/v1.rs:147:16: replace > with >= in V1Reader<R>::check_head in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/v1.rs:172:39: replace < with == in V1Writer<W>::write_contents in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/v1.rs:172:39: replace < with > in V1Writer<W>::write_contents in 8s build + 58s test
+MISSED   crates/rbitcoin-net/src/v1.rs:172:39: replace < with <= in V1Writer<W>::write_contents in 7s build + 58s test
+MISSED   crates/rbitcoin-net/src/v2.rs:381:37: replace > with >= in V2SessionReader<R>::read_packet in 107s build + 58s test
+MISSED   crates/rbitcoin-net/src/v2.rs:565:44: replace == with != in command_from_12 in 5s build + 29s test
+MISSED   crates/rbitcoin-net/src/v2.rs:582:43: replace match guard gh.locator_hashes.len() > MAX_LOCATOR_SZ with false in encode_v2_contents in 4s build + 29s test
+MISSED   crates/rbitcoin-net/src/v2.rs:585:42: replace match guard gb.locator_hashes.len() > MAX_LOCATOR_SZ with true in encode_v2_contents in 4s build + 29s test
+MISSED   crates/rbitcoin-net/src/v2.rs:585:42: replace match guard gb.locator_hashes.len() > MAX_LOCATOR_SZ with false in encode_v2_contents in 4s build + 29s test
+MISSED   crates/rbitcoin-net/src/v2.rs:575:24: replace > with == in encode_v2_contents in 4s build + 31s test
+MISSED   crates/rbitcoin-net/src/v2.rs:575:24: replace > with >= in encode_v2_contents in 4s build + 30s test
+MISSED   crates/rbitcoin-net/src/v2.rs:579:47: replace > with == in encode_v2_contents in 4s build + 29s test
+MISSED   crates/rbitcoin-net/src/v2.rs:579:47: replace > with >= in encode_v2_contents in 4s build + 30s test
+MISSED   crates/rbitcoin-net/src/v2.rs:582:67: replace > with == in encode_v2_contents in 4s build + 30s test
+MISSED   crates/rbitcoin-net/src/v2.rs:582:67: replace > with >= in encode_v2_contents in 4s build + 29s test
+MISSED   crates/rbitcoin-net/src/v2.rs:585:66: replace > with == in encode_v2_contents in 4s build + 30s test
+MISSED   crates/rbitcoin-net/src/v2.rs:585:66: replace > with < in encode_v2_contents in 4s build + 30s test
+MISSED   crates/rbitcoin-net/src/v2.rs:585:66: replace > with >= in encode_v2_contents in 4s build + 29s test
+MISSED   crates/rbitcoin-net/src/v2.rs:592:9: delete match arm NetworkMessage::Unknown{command, ..} in encode_v2_contents in 7s build + 29s test
+MISSED   crates/rbitcoin-net/src/v2.rs:596:19: replace > with == in encode_v2_contents in 7s build + 29s test
+MISSED   crates/rbitcoin-net/src/v2.rs:596:19: replace > with >= in encode_v2_contents in 4s build + 29s test
+MISSED   crates/rbitcoin-net/src/v2.rs:672:22: replace > with == in framed_payload in 4s build + 29s test
+MISSED   crates/rbitcoin-net/src/v2.rs:672:22: replace > with >= in framed_payload in 4s build + 29s test
+MISSED   crates/rbitcoin-net/src/v2.rs:858:24: replace && with || in bip324_halves in 4s build + 30s test
