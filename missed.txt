@@ -2582,3 +2582,82 @@ MISSED   crates/rbitcoin-query/src/confirm_run/mod.rs:923:72: replace == with !=
 MISSED   crates/rbitcoin-query/src/confirm_run/mod.rs:928:30: replace / with % in trust_log_fresh in 2s build + 10s test
 MISSED   crates/rbitcoin-query/src/confirm_run/mod.rs:928:30: replace / with * in trust_log_fresh in 2s build + 10s test
 MISSED   crates/rbitcoin-query/src/confirm_run/mod.rs:946:9: replace LoadedBatch::is_empty -> bool with true in 2s build + 10s test
+# 46125974957 1 c616c429805e4b918ec2f038fef9e0b5dcae89f2
+MISSED   crates/rbitcoin-query/src/sh_degraded.rs:74:58: replace == with != in <impl Drop for ShReadGuard>::drop in 100s build + 84s test
+MISSED   crates/rbitcoin-query/src/sh_degraded.rs:243:9: replace Query::sh_rebuild_failures_left_for_test -> usize with 0 in 10s build + 85s test
+MISSED   crates/rbitcoin-query/src/sh_degraded.rs:243:9: replace Query::sh_rebuild_failures_left_for_test -> usize with 1 in 10s build + 85s test
+MISSED   crates/rbitcoin-query/src/sh_degraded.rs:448:45: replace + with - in Query::sh_wait_unless_stopped in 10s build + 84s test
+MISSED   crates/rbitcoin-query/src/sh_degraded.rs:474:9: replace Query::reset_sh_memory with () in 9s build + 84s test
+MISSED   crates/rbitcoin-query/src/sh_degraded.rs:505:32: replace == with != in Query::clear_sh_degraded_marker in 10s build + 85s test
+MISSED   crates/rbitcoin-query/src/sh_degraded.rs:514:9: replace Query::sh_replacement_head_published -> bool with true in 9s build + 84s test
+MISSED   crates/rbitcoin-query/src/sh_degraded.rs:518:32: replace == with != in Query::sh_replacement_head_published in 9s build + 84s test
+MISSED   crates/rbitcoin-query/src/sh_degraded.rs:530:31: replace || with && in Query::settle_sh_marker_after_finalize in 9s build + 85s test
+MISSED   crates/rbitcoin-query/src/sp_tweaks.rs:257:37: replace || with && in Query::refuse_adding_prune_with_tweaks in 93s build + 85s test
+MISSED   crates/rbitcoin-query/src/sp_tweaks.rs:264:16: replace < with == in Query::refuse_adding_prune_with_tweaks in 9s build + 85s test
+MISSED   crates/rbitcoin-query/src/sp_tweaks.rs:264:16: replace < with <= in Query::refuse_adding_prune_with_tweaks in 9s build + 84s test
+MISSED   crates/rbitcoin-query/src/sp_tweaks.rs:317:38: replace < with <= in Query::witnessed_pruneheight in 10s build + 85s test
+MISSED   crates/rbitcoin-query/src/sp_tweaks.rs:353:56: replace < with == in Query::tweak_seal_blocks_prune in 9s build + 84s test
+MISSED   crates/rbitcoin-query/src/sp_tweaks.rs:353:56: replace < with > in Query::tweak_seal_blocks_prune in 10s build + 85s test
+MISSED   crates/rbitcoin-query/src/sp_tweaks.rs:353:56: replace < with <= in Query::tweak_seal_blocks_prune in 9s build + 85s test
+MISSED   crates/rbitcoin-query/src/sp_tweaks.rs:362:9: replace Query::refuse_prune_advance_past_tweaks -> Result<(), QueryError> with Ok(()) in 9s build + 85s test
+MISSED   crates/rbitcoin-query/src/sp_tweaks.rs:362:12: delete ! in Query::refuse_prune_advance_past_tweaks in 9s build + 85s test
+MISSED   crates/rbitcoin-query/src/spend_sync.rs:135:58: replace || with && in run in 97s build + 85s test
+MISSED   crates/rbitcoin-query/src/spend_sync.rs:135:69: replace >= with < in run in 9s build + 85s test
+MISSED   crates/rbitcoin-query/src/spend_sync.rs:136:21: delete ! in run in 10s build + 85s test
+MISSED   crates/rbitcoin-query/src/stamp.rs:174:9: delete field resolved from struct ExternalParentStamp expression in external_parent_stamp in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/stamp.rs:175:9: delete field idents from struct ExternalParentStamp expression in external_parent_stamp in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/write_create_loc.rs:121:40: replace < with <= in WriteCreateLocRam::covering_height in 99s build + 85s test
+MISSED   crates/rbitcoin-query/src/write_create_loc.rs:125:68: replace < with > in WriteCreateLocRam::covering_height in 10s build + 84s test
+MISSED   crates/rbitcoin-query/src/write_create_loc.rs:125:48: replace - with / in WriteCreateLocRam::covering_height in 9s build + 85s test
+MISSED   crates/rbitcoin-query/src/write_create_loc.rs:150:60: replace - with + in WriteCreateLocRam::rebuild_covers in 9s build + 85s test
+MISSED   crates/rbitcoin-query/src/write_create_loc.rs:150:60: replace - with / in WriteCreateLocRam::rebuild_covers in 9s build + 85s test
+MISSED   crates/rbitcoin-query/src/block_pipeline.rs:963:13: replace || with && in structural_load_durable_spent in 97s build + 85s test
+MISSED   crates/rbitcoin-query/src/confirm_run/mod.rs:396:25: replace == with != in ordered_failure in 96s build + 84s test
+MISSED   crates/rbitcoin-query/src/confirm_run/mod.rs:428:12: delete ! in <impl Drop for RePublishLoser<'_>>::drop in 9s build + 84s test
+MISSED   crates/rbitcoin-query/src/confirm_run/mod.rs:557:13: replace run_pair_loads::<impl Drop for PairPublisher>::drop with () in 10s build + 84s test
+MISSED   crates/rbitcoin-query/src/confirm_run/mod.rs:623:36: delete ! in run_pair_loads in 9s build + 85s test
+MISSED   crates/rbitcoin-query/src/confirm_run/mod.rs:638:39: replace - with + in run_pair_loads in 9s build + 85s test
+MISSED   crates/rbitcoin-query/src/confirm_run/mod.rs:650:27: replace - with + in run_pair_loads in 9s build + 85s test
+MISSED   crates/rbitcoin-query/src/confirm_run/mod.rs:650:27: replace - with / in run_pair_loads in 10s build + 84s test
+MISSED   crates/rbitcoin-query/src/header_read.rs:78:13: delete match arm Err(ConfirmError::Rules(err)) in validate_header_hashed in 101s build + 84s test
+MISSED   crates/rbitcoin-query/src/header_read.rs:113:17: replace > with >= in next_block_mintime in 9s build + 85s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:119:24: replace - with + in track_index in 102s build + 85s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:144:13: replace && with || in index_tip_entry in 9s build + 87s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:144:51: replace || with && in index_tip_entry in 10s build + 84s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:230:33: replace > with >= in index_caught_up in 9s build + 85s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:272:21: replace + with - in seal_through in 9s build + 85s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:282:57: replace + with * in plan_window in 10s build + 85s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:290:20: replace > with == in plan_window in 11s build + 86s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:290:20: replace > with >= in plan_window in 10s build + 84s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:290:16: replace + with * in plan_window in 9s build + 85s test
+MISSED   crates/rbitcoin-query/src/index_writebehind.rs:293:13: replace += with *= in plan_window in 10s build + 84s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:37:20: replace match guard matches!(d.state, ThresholdState::Started | ThresholdState::LockedIn) with true in compute_block_version in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:37:20: replace match guard matches!(d.state, ThresholdState::Started | ThresholdState::LockedIn) with false in compute_block_version in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:38:34: replace | with & in compute_block_version in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:38:34: replace | with ^ in compute_block_version in 2s build + 9s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:38:39: replace << with >> in compute_block_version in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:90:33: replace - with + in Query::deployment_state in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:90:33: replace - with / in Query::deployment_state in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:90:40: replace % with / in Query::deployment_state in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:90:40: replace % with + in Query::deployment_state in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:91:25: replace == with != in Query::deployment_state in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:95:51: replace - with + in Query::deployment_state in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:95:51: replace - with / in Query::deployment_state in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:97:43: replace - with + in Query::deployment_state in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:97:43: replace - with / in Query::deployment_state in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:110:32: replace -= with += in Query::deployment_state in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:110:32: replace -= with /= in Query::deployment_state in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:119:52: replace >= with < in Query::deployment_state in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:137:22: replace << with >> in Query::period_signals in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:139:72: replace && with || in Query::period_signals in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:139:48: replace == with != in Query::period_signals in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:139:25: replace & with | in Query::period_signals in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:139:25: replace & with ^ in Query::period_signals in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:139:94: replace != with == in Query::period_signals in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:139:87: replace & with | in Query::period_signals in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:139:87: replace & with ^ in Query::period_signals in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:145:15: replace += with -= in Query::period_signals in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:145:15: replace += with *= in Query::period_signals in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:147:38: replace < with == in Query::period_signals in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:147:38: replace < with > in Query::period_signals in 2s build + 10s test
+MISSED   crates/rbitcoin-query/src/versionbits.rs:147:38: replace < with <= in Query::period_signals in 2s build + 10s test

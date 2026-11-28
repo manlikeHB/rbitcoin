@@ -1,14 +1,14 @@
 {
   "new_base": "fcdeba47fdb70dd72c4c809d7f385f473978f3b6",
-  "new_skip": 4319,
-  "old_index": 18523,
-  "old_name": "crates/rbitcoin-query/src/confirm_run/mod.rs:963:9: replace ScriptOkBatch::heights_hashes -> Vec<(u32, [u8; 32])> with vec![]",
+  "new_skip": 4608,
+  "old_index": 18817,
+  "old_name": "crates/rbitcoin-query/src/confirm_run/bq_resolve.rs:302:5: replace stop_for_key_cap -> bool with true",
   "new_cap_used": true,
-  "run_id": "45971086202",
+  "run_id": "46125974957",
   "new_len": 7856,
   "old_len": 31069,
-  "new_remaining": 3537,
-  "old_remaining": 30115,
-  "completed_new": 0,
-  "completed_old": 954
+  "new_remaining": 3248,
+  "old_remaining": 30775,
+  "completed_new": 289,
+  "completed_old": 294
 }
